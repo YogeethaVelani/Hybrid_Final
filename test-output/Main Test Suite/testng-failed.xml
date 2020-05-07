@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="GeneralClasses.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="TestNG Test Group(failed)" verbose="2">
+    <classes>
+      <class name="Tests.TestScenarios">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="aftermethod"/>
+          <include name="setup"/>
+          <include name="Login_TC001"/>
+        </methods>
+      </class> <!-- Tests.TestScenarios -->
+    </classes>
+  </test> <!-- TestNG Test Group(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
